@@ -22,12 +22,12 @@ function loseMoney() {
     // console.log(profit);
     const profitText = document.getElementById('profitAmount')
     if(profitText) {
-        profitText.textContent = ` -${profit}`
+        profitText.textContent = ` -$${profit}`
     }
     // if (profitText) {
     //     profitText.innerText(`-$${profit}`)
     // }
-    setTimeout(loseMoney, 5000);
+    setTimeout(loseMoney, Math.floor(Math.random() * 2000));
 }
 
 loseMoney();
