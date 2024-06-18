@@ -4,7 +4,7 @@ import { clearNodes } from "./clearNode";
 
 const contentDiv = document.getElementById('content')
 
-let profit = 0
+let profit = Math.floor(Math.random() * 5)
 
 function renderAbout() {
     createElement('h1','Crummy\'s Burgers',contentDiv,['title'])
@@ -18,7 +18,7 @@ function renderAbout() {
 }
 
 function loseMoney() {
-    profit += Math.floor(Math.random() * 5000);
+    profit *= profit;
     // console.log(profit);
     const profitText = document.getElementById('profitAmount')
     if(profitText) {
