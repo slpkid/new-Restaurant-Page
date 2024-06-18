@@ -11,7 +11,6 @@ const aboutButton = document.getElementById('about');
 
 
 homeButton.addEventListener('click', () => {
-    console.log(contentDiv)
-    console.log(contentDiv.firstChild)
-    // renderHome();
+    clearNodes(contentDiv);
+    renderHome();
 })
