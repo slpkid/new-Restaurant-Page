@@ -1,0 +1,49 @@
+#content {
+    border: 3px solid black;
+    box-shadow: 5px 2px 3px gray ;
+    border-radius: 2.5rem;
+    width: 50%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.underline {
+    border-bottom: gray solid 2px;
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
+    font-size:1.5rem;
+}
+
+.red {
+    color:darkred;
+}
+
+.description {
+    padding-left: 0.5rem;
+    font-size: 0.85rem;
+}
+
+#navbar {
+
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.hours li {
+    list-style: none;
+}
+
+.title {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.field {
+    padding-bottom: 2rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
